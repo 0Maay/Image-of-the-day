@@ -21,7 +21,7 @@ const mostrarInformacion = ({date, explanation, hdurl, title}) => {
         <h4>${title}</h4>
         <img  src="${hdurl}" alt="${title}">
         <section class="descripcion">
-            <p class="card_subtitle">${explanation}</p>
+            <p>${explanation}</p>
         </section>
     </section>
     `
