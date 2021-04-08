@@ -1,0 +1,76 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary:#99D9F2;
+    --color-secundary:#55A6D9;
+    --color-tertiary:#2D61A6;
+    --size-text: 1.2rem;
+}
+
+header{
+    width: 100vw;
+    background-image: url("./images/header_background.jpg");
+    height: 8rem;
+}
+
+body{
+    /*font-family: 'Maven Pro', sans-serif;*/
+    font-family: 'Oxanium', cursive;
+    display:flexbox;
+    background-color: #1B2B40;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+img{
+    max-width:100%;
+    width: 50%;
+    display: block;
+    margin: auto;
+    box-shadow: 0.3rem 0.3rem 2rem var(--color-tertiary);
+}
+
+.descripcion{
+    font-weight: 400;
+    text-align: justify;
+    font-size: 0.8rem;
+    color:var(--color-secundary);
+    margin: 1rem 1rem;
+    text-shadow: 0.1rem 0.1rem 0.3rem;
+}
+
+h1{
+    color:var(--color-primary);
+    font-weight:600;
+    text-shadow: 0.1rem 0rem 1rem white;
+}
+
+h2{
+    font-weight: 500;
+    color:var(--color-primary);
+    text-align: center;
+    text-shadow: 0rem 0.1rem 0.3rem;
+}
+
+h4{
+    font-weight: 500;
+    color:var(--color-secundary);
+    text-align: center;
+    margin: 1rem 1rem;
+    text-shadow: 0.1rem 0rem 0.3rem;
+}
